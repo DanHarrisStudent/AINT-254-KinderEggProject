@@ -12,6 +12,8 @@ public class UserInput : MonoBehaviour {
         GUI.Label(new Rect(5.0f, 25.0f, 100.0f, 30.0f), "Vertical Axis: ");
         GUI.Label(new Rect(150.0f, 25.0f, 100.0f, 30.0f), UnityEngine.Input.GetAxis("Vertical").ToString());
 
+        GUI.Label(new Rect(5.0f, 40.0f, 100.0f, 30.0f), "HandBrake:  ");
+        GUI.Label(new Rect(150.0f, 40.0f, 100.0f, 30.0f), UnityEngine.Input.GetAxis("Jump").ToString());
 
     }
 
