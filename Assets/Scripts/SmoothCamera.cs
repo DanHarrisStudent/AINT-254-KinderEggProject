@@ -9,7 +9,7 @@ public class SmoothCamera : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        Vector3 newPos = new Vector3(m_target.position.x + 50.0f, (m_target.position.y + 25.0f), m_target.position.z);
+        Vector3 newPos = new Vector3(m_target.position.x + 30.0f, (m_target.position.y + 20.0f), m_target.position.z);
         transform.position = Vector3.Lerp(transform.position, newPos, (m_smoothing * 0.001f));
     }
 }
