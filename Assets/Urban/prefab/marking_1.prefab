@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 450648}
   - component: {fileID: 3391828}
   - component: {fileID: 2307214}
+  - component: {fileID: 65948119977343420}
   m_Layer: 0
   m_Name: marking_1
   m_TagString: Untagged
@@ -60,6 +61,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3391828
 MeshFilter:
@@ -79,3 +81,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 185708}
   m_IsPrefabParent: 1
+--- !u!65 &65948119977343420
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.024155889, y: 0.0022222216, z: 0.00039999993}
+  m_Center: {x: 0.0000000023283064, y: 5.820765e-10, z: 0}

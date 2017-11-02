@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 402292}
   - component: {fileID: 3360792}
   - component: {fileID: 2361470}
+  - component: {fileID: 65568406124501072}
   m_Layer: 0
   m_Name: tree_3
   m_TagString: Untagged
@@ -60,6 +61,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3360792
 MeshFilter:
@@ -79,3 +81,15 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 101316}
   m_IsPrefabParent: 1
+--- !u!65 &65568406124501072
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01777941, y: 0.017175885, z: 0.013092365}
+  m_Center: {x: 0.00013244199, y: 0.00017159336, z: 0.006526593}

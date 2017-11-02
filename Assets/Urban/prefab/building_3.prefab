@@ -10,6 +10,8 @@ GameObject:
   - component: {fileID: 470602}
   - component: {fileID: 3345958}
   - component: {fileID: 2345910}
+  - component: {fileID: 65662248363932520}
+  - component: {fileID: 65618669350110164}
   m_Layer: 0
   m_Name: building_3
   m_TagString: Untagged
@@ -62,6 +64,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3345958
 MeshFilter:
@@ -81,3 +84,27 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 145902}
   m_IsPrefabParent: 1
+--- !u!65 &65618669350110164
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.053413197, y: 0.043257464, z: 0.027999993}
+  m_Center: {x: 0.005, y: 0.009999998, z: 0.013999997}
+--- !u!65 &65662248363932520
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.053413197, y: 0.043257464, z: 0.027999993}
+  m_Center: {x: 0.005, y: 0.009999998, z: 0.013999997}
