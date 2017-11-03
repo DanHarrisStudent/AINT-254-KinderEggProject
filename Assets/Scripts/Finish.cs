@@ -5,13 +5,20 @@ using UnityEngine;
 public class Finish : MonoBehaviour {
 
     public GameObject _trigger;
-    public GameObject _UI;
-    public float _menuTime = 2f;
+    public GameObject _menu;
 
     private void OnTriggerEnter(Collider other)
     {
+        _menu.SetActive(true);
+
         Destroy(_trigger);
-        Time.timeScale = 1f;
+    }
+    private void OpenMenu()
+    {
+        if (Input.GetButtonDown("Start"))
+        {
+            _menu.SetActive(true);
+        }
     }
 
 }
