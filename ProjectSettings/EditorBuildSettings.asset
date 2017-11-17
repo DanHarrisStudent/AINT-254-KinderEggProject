@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 0
     path: 
@@ -11,3 +12,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GetThatPromotion.unity
     guid: 35ba676d66d308e48852b40312ed29c6
+=======
+  m_Scenes: []
+>>>>>>> b58f3e4a2b45205c7bccb1e4103f0e07e7081779

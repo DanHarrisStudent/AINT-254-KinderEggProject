@@ -5,14 +5,14 @@ using UnityEngine;
 public class PathFollower : MonoBehaviour {
 
     public Transform[] path;
-    private float speed;
-    public float reachDist = 0.1f;
+    public float speed = 5.0f;
+    public float reachDist = 1.0f;
     public int currentPoint = 0;
 
 
 	// Use this for initialization
 	void Start () {
-        speed = Random.Range(3, 10);
+		
 	}
 	
 	// Update is called once per frame
@@ -41,7 +41,6 @@ public class PathFollower : MonoBehaviour {
             if(path[i] != null)
             {
                 Gizmos.DrawWireSphere(path[i].position, reachDist);
-                Gizmos.DrawLine(path[i].position, path[currentPoint].position);
             }
         }
     }
